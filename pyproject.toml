@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "rate-limiting"
+version = "0.1.0"
+description = "This project is for learning purpose of rate limiting"
+authors = ["souravsingha13 <souravsingha1304021@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.1.4"
+django-ratelimit = "^4.1.0"
+django-redis = "^5.4.0"
+djangorestframework = "^3.15.2"
+ratelimit = "^2.2.1"
+locust = "^2.32.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
